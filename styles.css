@@ -1,0 +1,202 @@
+* {
+	box-sizing: border-box;
+  }
+
+body {
+	font-family: 'Courier New', Courier, monospace;
+	margin: 0px;
+	padding: 0px;
+	background-color: rgba(0,0,0);
+	
+}
+.sideNav {
+	height: 100%;
+	width: 0%;
+	background-color: #111;
+	overflow-x: hidden;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sideNav a {
+	padding: 15px 8px 15px 32px;
+	display: block;
+	text-decoration: none;
+	color: linen;
+	font-size: 25px;
+	transition: 0.3s;
+}
+
+.sidenav a:hover {
+	color: #f1f1f1;
+	
+  }  
+
+span {
+	padding: 15px;
+	color: white;
+}
+
+.sideNav .closebtn {
+	position: absolute;
+	top: 0;
+  right: 25px;
+  font-size: 36px;
+  /* margin-left: 70px; */
+  }
+
+@media screen and (max-height: 450px) {
+.sidenav {padding: 150px;}
+.sidenav a {font-size: 18px;}
+}
+
+h1 {
+	text-align: center;
+	color: seashell;
+	margin: 0px;
+	padding: 15px;
+}
+header {
+	background-image: url(https://miniyadav1.github.io/restaurant/restaurant-website-master/img/foddiee.png);
+	background-size: cover;
+	background-position: center;
+	width:100%;
+	height: 750px; 
+	}
+#home {
+	background-color: rgba(0, 0, 0, 0.4);
+	justify-content: center;
+}
+
+h2 {
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	padding-top: 160px;
+	color: rgb(252, 104, 104);
+	font-size: 80px;
+}
+
+.container {
+	size: border-box;
+	justify-content: right;
+	background-color: seashell;
+  }
+  
+  .mySlides {
+	justify-content: center;
+	padding: 0px 390px;
+
+	border-radius: 10px;
+  }
+  
+    .cursor {
+	cursor: pointer;
+  }
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: rgb(252, 104, 104);
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.text {
+	color: rgb(0, 0, 0);
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	/* left: 50%; */
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+  }
+
+  /* .overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: rgba(255,255,255, 0.4);
+  }
+   */
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.row:after {
+	display: table;
+	clear: both;
+  }
+  
+  .column {
+	width: 16.66%;
+  }
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+
+img {
+	-ms-flex-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 30px;
+  height: 250px;
+  float: center;
+  /* width: 60%; */
+  align-content: center;
+  float: inline-end;
+
+}
+.gmap_iframe {
+	 padding: 20px;
+ }
+ .cont-sec {
+	margin: none;
+	background-color: darkslategrey;
+	color: ghostwhite;
+	padding: 20px;
+	text-align: center;
+ }
+
+ h3 {
+	 text-align: center;
+ }
+
+ a{
+	 text-decoration: none;
+	 color: beige;
+	 display: inline-flex;
+	 text-align: center;
+	 font-weight: bold;
+ }
+
+ .story {
+	 padding: 0px 20px;
+	background-color: seagreen;
+ }
